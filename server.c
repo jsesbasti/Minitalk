@@ -16,7 +16,7 @@ int	showpid(void)
 {
 	int	pid;
 
-	pid = getpid(void);
+	pid = getpid();
 	ft_printf("%i", pid);
 	return (1);
 }

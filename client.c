@@ -12,4 +12,7 @@
 
 #include "minitalk.h"
 
-
+void    client(int pid, const char *str)
+{
+    
+}

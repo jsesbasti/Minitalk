@@ -20,3 +20,5 @@
 # include <stdlib.h>
 
 int	showpid(void);
+
+#endif

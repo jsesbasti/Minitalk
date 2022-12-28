@@ -14,5 +14,5 @@
 
 int	main(void)
 {
-	return (showpid(void));
+	return (showpid());
 }
