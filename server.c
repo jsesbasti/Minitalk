@@ -6,7 +6,7 @@
 /*   By: kali <kali@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/22 19:41:59 by jsebasti          #+#    #+#             */
-/*   Updated: 2022/12/28 07:32:23 by kali             ###   ########.fr       */
+/*   Updated: 2022/12/28 10:16:08 by kali             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,14 @@
 
 int	showpid(void)
 {
-	int	pid;
-
+	pid_t	pid;
+	
 	pid = getpid();
-	ft_printf("%i", pid);
+	ft_printf("PID = %i", pid);
 	return (1);
+}
+
+int	main(void)
+{
+	return (showpid());
 }
